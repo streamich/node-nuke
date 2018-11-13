@@ -17,6 +17,8 @@
     "/"
   ],
   "scripts": {
+    "build": "echo nothing to do...",
+    "test": "node test.js",
     "prettier": "prettier --ignore-path .gitignore --write 'lib/**/*.{ts,tsx,js,jsx}'",
     "prettier:diff": "prettier -l 'lib/**/*.{ts,tsx,js,jsx}'",
     "prepush": "yarn prettier:diff",
